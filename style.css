@@ -1,0 +1,25 @@
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.scale {
+	margin: 50px auto;
+	width: 500px;
+	height: 10px;
+	position: relative;
+	background: #7feab8;	
+}
+
+.trigger{
+	position: absolute;
+	left: calc(0% - 6px);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 12px;
+	height: 20px;
+	background: #bbbaf6;
+	cursor: pointer;
+}
